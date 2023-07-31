@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="ftmenu">
           <div className="ftmenu_wrap">					
             <ul className="f_link clearFix">
-              <li className="first"><a href="#none">개인정보처리방침</a></li>
+              <li className="first"><a href="#none">개인정보처리방침new</a></li>
               <li><a href="#none">이용약관</a></li> 
               <li><a href="#none">부정부조리신고 안내</a></li>
               <li><a href="#none">오시는길</a></li>
