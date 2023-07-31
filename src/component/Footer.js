@@ -41,7 +41,7 @@ export default function Footer() {
               />
             </div>
             <div className="copyright">
-              <p>주소  / 사업자등록번호 000-00-0000</p>
+              <p>주소new  / 사업자등록번호 000-00-0000</p>
               <p>대표전화번호: 000-0000-0000  / 대표팩스번호: 000-0000-0000 / 이메일:admin@cms.com</p>
               <p className="copy">COPYRIGHT TORD CMS. ALL RIGHTS RESERVED.</p>
             </div>	
