@@ -19,7 +19,7 @@ export default function Header() {
 
       <nav>
         <ul>
-          <li><a href="#none">회사소개11</a>
+          <li><a href="#none">회사소개22</a>
           <ul className="nav_depth02">
             <li className="first"><a href="#none">CEO인사말</a></li>
             <li><a href="#none">연혁</a></li>
