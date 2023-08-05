@@ -1,19 +1,16 @@
-import './App.css';
-import './common.css';
-import './cms.css';
-import Header from './component/Header';
-import Main from './component/Main';
-import Content from './component/Content';
-import Footer from './component/Footer';
+import {BrowserRouter, Routes, Route } from "react-router-dom"; 
+import Home from "./page/Home";
+import { Login } from "./page/Login";
 
 function App() {
   return (
-     <div>
-        <Header></Header>
-        <Main></Main>
-        <Content></Content>
-        <Footer></Footer>
-     </div>
+    <BrowserRouter>      
+      <Routes>
+        <Route path="/" element = {<Home/>}/>
+        <Route path="/login" element = {<Login/>}/>
+        {/* <Route path="/login" element = {<Login/>}/> */}
+      </Routes>    
+    </BrowserRouter>
   );
 }
 

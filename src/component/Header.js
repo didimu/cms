@@ -1,5 +1,5 @@
 import React from 'react'; 
-
+import { Link } from 'react-router-dom';
 
 
 export default function Header() {
@@ -76,7 +76,7 @@ export default function Header() {
 					</div>
 					<div className="global pc">
 						<ul className="clearFix">
-							<li><a href="#none">로그인</a></li>
+							<li><a href="/login">로그인</a></li>
 							<li><a href="#none">회원가입</a></li>
 							<li className="last"><a href="#none">사이트맵</a></li>
 						</ul>
