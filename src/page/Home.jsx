@@ -1,5 +1,6 @@
 import '../css/common.css';
 import '../css/cms.css';
+import '../css/contents.css';
 import Header from '../component/Header';
 import Main from '../component/Main';
 import Content from '../component/Content';
