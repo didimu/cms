@@ -5,7 +5,7 @@
 #popup_wrap { position:relative; width:100%;  }
 #main_container { width:100%;  }
 #main_container .container_in { position:relative;  margin:90px auto 0; background:#fff;}/*메인*/
-#container .container_in { position:relative; max-width:1200px; margin:0 auto; min-height:500px; }/*서브*/
+#container .container_in { position:relative; max-width:1200px; margin:90px auto 0; min-height:500px; }/*서브*/
 #container #leftcolumn { width:15%; position:relative; float:left;  padding-bottom:50px; margin-right:0; }
 #container #rightcolumn { width: 73%; float: left; padding-bottom: 40px; margin-left: 5%;}
 #footer { clear:both;  border-top:1px solid #ddd;}
